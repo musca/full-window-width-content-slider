@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Full width scrollable plugin</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/stylesheets/index.css" />
+    <script src="/assets/scripts/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./assets/scripts/scrollable.all.min.js">//dependencies</script> 
+    <script>
+    $(function() {
+      $("#slider").scrollable({ 
+        circular: true 
+      }).navigator({ 
+        navi: '#navigation' 
+      }).fullwidth();
+    });   
+    </script>
+  </head>
+  <body>
+    <div id="slider">
+      <div id="items">
+        <div>
+          <div>
+            <h1>Slide 1</h1>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2>Slide 2</h2>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h3>Slide 3</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="navigation-wrapper">
+      <span class="prev left">&lt; Previous slide</span>
+      <span class="next right">Next slide &gt;</span>
+      <ul id="navigation">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </body>
+</html>

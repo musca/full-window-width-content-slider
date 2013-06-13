@@ -1,0 +1,86 @@
+  *{margin:0;padding:0;}
+  #slider, #items > div, #items > div > div, h1, h2, h3{
+    height:420px;
+    line-height:420px;
+    text-align:center;
+  }
+  #slider, #slider2{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position:relative;
+    height:420px;
+  }
+  #items{
+    width: 2000em;
+    position: absolute;
+  }
+  #items > li, #items > div{
+    float: left;
+    overflow: visible;
+  }
+  #items > div > div{
+    margin: 0 auto;
+    background: #f4f4f4;
+  }
+  #slide-1{
+    background-color:black;
+  }
+  #items > div > div{
+    width: 960px;
+  }
+  @media screen and (max-width: 1920px) {
+    #items > div > div, #navigation-wrapper, #site-nav {
+      width: 1180px;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    #items > div > div, #navigation-wrapper, #site-nav {
+      width: 1180px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    #items > div > div, #navigation-wrapper, #site-nav {
+      width: 960px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    #items > div > div, #navigation-wrapper, #site-nav {
+      width: 768px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #items > div > div, #navigation-wrapper, #site-nav {
+      width: 640px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    #items > div > div, #navigation-wrapper, #site-nav {
+      width: 640px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    #items > div > div, #navigation-wrapper, #site-nav {
+      width: 480px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    #items > div > div, #navigation-wrapper, #site-nav {
+      width: 460px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    #items > div > div, #navigation-wrapper, #site-nav {
+      width: 300px;
+    }
+  }
+
+  .left, .right{margin-top:10px;}
+  .left, #navigation li{float:left;}
+  .right{float:right;}
+  #navigation-wrapper,#navigation{margin:0 auto;}
+  #navigation{clear:both;width:81px;}
+  #navigation li{width:15px;height:15px;list-style:none;border-radius:8px;border:1px solid #ccc;margin: 5px;}
+  #navigation li:hover, .left:hover, .right:hover{cursor:pointer;}
+  .active{background-color:#ccc;cursor:default;}
+  .disabled{display:none;}
