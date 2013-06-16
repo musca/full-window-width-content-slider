@@ -9,7 +9,7 @@ jQuery tools scrollable full window width plugin
     $('#slider').scrollable().fullwidth();
 
 
-###Full on seetings:
+###Full on settings:
 
     $('#slider').scrollable({ 
       circular: true, 
