@@ -66,6 +66,8 @@ jQuery tools scrollable full window width plugin
       autoplay: true,
       autopause:true, 
       interval: 5000 
-    }).fullwidth();
+    }).fullwidth(
+      width: 960 // If you need a static width
+    );
   
   Include the easing js file if you want a none default easing.
