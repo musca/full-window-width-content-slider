@@ -15,7 +15,7 @@
 
     // Establish our default settings
     var settings = $.extend({
-        width  : 320
+        width : 320
     }, options);
     
     return this.each(function() {
