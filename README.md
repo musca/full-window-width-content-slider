@@ -11,7 +11,7 @@ jQuery tools scrollable full window width plugin
         width: 100%;
         overflow: hidden;
         position: relative;
-        height:400px;
+        height: 400px;
       }
       #items{  
         width: 2000em;
