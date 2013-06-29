@@ -11,7 +11,12 @@
  
 (function($) {
 
-  $.fn.fullwidth = function() {
+  $.fn.fullwidth = function(options) {
+
+    // Establish our default settings
+    var settings = $.extend({
+        width  : 320
+    }, options);
     
     return this.each(function() {
 
@@ -25,12 +30,12 @@
         
         if (conf.circular) { i = i + 1 }
         
-        if (w >= 320) {
+        if (w >= settings.width) {
           var l = i * w
           root.children().css({ left: + - +l });
           root.children().children().css({ width: w });
         } else {
-          root.children().children().css({ width: 300 });
+          root.children().children().css({ width: settings.width });
         }
 
       });
