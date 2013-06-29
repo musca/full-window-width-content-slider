@@ -1,7 +1,7 @@
 js_compiler:
 
   uglifyjs src/scrollable.fullwidth.js --comments all \
-	   -o scripts/scrollable.fullwidth.min.js
+	-o scripts/scrollable.fullwidth.min.js
 	
   cat scripts/scrollable.min.js \
       scripts/scrollable.autoscroll.min.js \
