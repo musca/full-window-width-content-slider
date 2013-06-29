@@ -10,7 +10,7 @@ jQuery tools scrollable full window width plugin
       #slider{
         width: 100%;
         overflow: hidden;
-        position:relative;
+        position: relative;
         height:400px;
       }
       #items{  
