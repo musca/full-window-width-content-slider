@@ -3,6 +3,9 @@ full window width content slider
 
 jQuery tools scrollable full window width plugin
 
+[Demo](http://musca.se/full-window-width-jquery-tools-content-slider-demo/
+)
+
 ###Setup
 
 
@@ -67,7 +70,7 @@ jQuery tools scrollable full window width plugin
       autopause:true, 
       interval: 5000 
     }).fullwidth({
-       width: 960 // If you need a static width
+      width: 960 // If you need a static width
     });
   
   Include the easing js file if you want a none default easing.
