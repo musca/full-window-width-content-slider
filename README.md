@@ -1,4 +1,4 @@
-full window width content slider
+Full window width content slider
 ================================
 
 jQuery tools scrollable full window width plugin
