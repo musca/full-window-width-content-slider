@@ -23,7 +23,7 @@ jQuery tools scrollable full window width plugin
       #items > div{
         float: left;
       }
-      #items > div > div{
+      #items > div > div {
         width: 960px;
         margin: 0 auto;
       }
